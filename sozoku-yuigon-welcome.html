@@ -36,7 +36,7 @@ const ThanksPage = ({ appData, showToast }) => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0b1221] text-gray-200 font-sans py-12 px-4 flex flex-col items-center">
+    <div className="min-h-screen bg-[#0b1221] text-gray-200 py-12 px-4 flex flex-col items-center">
       
       {/* Header Section */}
       <div className="flex flex-col items-center mb-8 text-center">
@@ -186,7 +186,10 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen">
+    <div 
+      className="relative min-h-screen"
+      style={{ fontFamily: '"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif' }}
+    >
       {/* プレビュー用タブスイッチャー (実運用時は不要) */}
       <div className="bg-[#0f172a] border-b border-gray-800 p-3 flex justify-center items-center gap-4 z-50 relative">
         <span className="text-gray-400 text-sm font-semibold">表示切り替え:</span>
